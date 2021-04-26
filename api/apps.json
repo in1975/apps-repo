@@ -4,13 +4,15 @@
       "id": "org.webosbrew.hbchannel",
       "title": "Homebrew Channel",
       "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
-      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/latest/download/org.webosbrew.hbchannel.manifest.json"
+      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/latest/download/org.webosbrew.hbchannel.manifest.json",
+      "category": "system"
     },
     {
       "id": "com.limelight.webos",
       "title": "Moonlight",
       "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
-      "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos.manifest.json"
+      "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos.manifest.json",
+      "category": "games"
     }
   ]
 }
