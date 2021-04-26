@@ -29,7 +29,7 @@
 <li>
 <p>Independent webOS package repository</p>
 <ul>
-<li>Homebrew discovery, installation &amp; updates</li>
+<li>Homebrew discovery, installation &amp;amp; updates</li>
 </ul>
 </li>
 <li>
@@ -72,22 +72,22 @@ currently using enyo built-in <code>enyo-dev</code> packager. This requires us t
 code that&#x27;ll be run directly on target platforms (no babel/transpilation of newer
 ES dialects - no arrow functions, no const, no promises, etc.). In the future
 we may migrate to some webpack-based solution around that.</p>
-<p>Service is packaged using webpack &amp; babel, thus, with enough shims and patches,
+<p>Service is packaged using webpack &amp;amp; babel, thus, with enough shims and patches,
 we can write and use some modern ES features (like Promises, arrow functions,
 async functions, const, etc.) while targeting NodeJS 0.10 (used on earliest
 webOS versions)</p>
 <h3>Production build</h3>
-<div class="highlight"><pre><span></span><code>rm -rf dist <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> npm run build -- --production <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> npm run build-service -- --env production <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> npm run package
+<div class="highlight"><pre><span></span><code>rm -rf dist <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run build -- --production <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run build-service -- --env production <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run package
 </code></pre></div>
 
 <h3>Full application testing / deployment</h3>
-<div class="highlight"><pre><span></span><code>rm -rf dist <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> npm run build <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> npm run build-service <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> npm run package <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> npm run deploy <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> npm run launch
+<div class="highlight"><pre><span></span><code>rm -rf dist <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run build <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run build-service <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run package <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run deploy <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run launch
 ssh root@10.0.0.2 -p <span class="m">9922</span> /media/developer/apps/usr/palm/services/org.webosbrew.hbchannel.service/elevate-service
 </code></pre></div>
 
 <h3>Service testing</h3>
-<div class="highlight"><pre><span></span><code>npm run build-service <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> <span class="se">\</span>
-    cat dist/services/service.js <span class="p">|</span> ssh root@10.0.0.2 -p <span class="m">9922</span> sh -c <span class="p">&amp;</span><span class="c1">#x27;cat &amp;gt; /media/developer/apps/usr/palm/services/org.webosbrew.hbchannel.service/service.js &amp;amp;&amp;amp; pkill -f org.webosbrew.hbchannel.service&amp;#x27;</span>
+<div class="highlight"><pre><span></span><code>npm run build-service <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> <span class="se">\</span>
+    cat dist/services/service.js <span class="p">|</span> ssh root@10.0.0.2 -p <span class="m">9922</span> sh -c <span class="p">&amp;</span><span class="c1">#x27;cat &amp;amp;gt; /media/developer/apps/usr/palm/services/org.webosbrew.hbchannel.service/service.js &amp;amp;amp;&amp;amp;amp; pkill -f org.webosbrew.hbchannel.service&amp;#x27;</span>
 ssh root@10.0.0.2 -p <span class="m">9922</span> /usr/bin/run-js-service -k -n /media/developer/apps/usr/palm/services/org.webosbrew.hbchannel.service
 </code></pre></div>
 </section>
