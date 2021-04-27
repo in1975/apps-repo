@@ -1,11 +1,17 @@
 {
   "paging": {
     "page": 1,
-    "count": 2,
+    "count": 3,
     "maxPage": 1,
-    "itemsTotal": 2
+    "itemsTotal": 3
   },
   "packages": [
+    {
+      "id": "org.chocolate-doom.demo",
+      "title": "Chocolate Doom Demo",
+      "iconUri": "https://raw.githubusercontent.com/webosbrew/chocolate-doom/webos-tv/data/doom.png",
+      "manifestUrl": "https://github.com/webosbrew/chocolate-doom/releases/download/webos-demo-0.0.1/org.chocolate-doom.demo.manifest.json"
+    },
     {
       "id": "org.webosbrew.hbchannel",
       "title": "Homebrew Channel",
