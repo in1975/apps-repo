@@ -1,9 +1,9 @@
 {
   "paging": {
     "page": 1,
-    "count": 3,
+    "count": 4,
     "maxPage": 1,
-    "itemsTotal": 3
+    "itemsTotal": 4
   },
   "packages": [
     {
@@ -23,6 +23,12 @@
       "title": "Moonlight",
       "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
       "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos.manifest.json"
+    },
+    {
+      "id": "com.retroarch",
+      "title": "Retroarch",
+      "iconUri": "https://github.com/webosbrew/RetroArch/raw/webos-tv-support/webos/icon160.png",
+      "manifestUrl": "https://github.com/webosbrew/RetroArch/releases/latest/download/com.retroarch.manifest.json"
     }
   ]
 }
