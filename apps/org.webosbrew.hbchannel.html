@@ -25,72 +25,68 @@
     }
 </style>
 
-<h2>Features</h2>
-<ul>
-<li>
-<p>Independent webOS package repository</p>
-<ul>
-<li>Homebrew discovery, installation &amp;amp; updates</li>
-</ul>
-</li>
-<li>
-<p>(root) Root execution service that can be easily used by webOS homebrew
-  developers without a need of separate privilege escalation handling (<code>luna://org.webosbrew.hbchannel.service/exec</code>)</p>
-</li>
-<li>(root) Disable some telemetry</li>
-<li>(root) Startup user hooks (executable scripts present in <code>/var/lib/webosbrew/init.d</code> are run on bootup)</li>
-<li>(root) Remote access<ul>
-<li>SSH - public key authenticated (with default <code>alpine</code> password until
-  authorized keys are provisioned)</li>
-<li>Telnet - unauthenticated, use sparingly</li>
-</ul>
-</li>
-<li>(root) Failsafe mode<ul>
-<li>In case a device crashes on boot only an emergency shell will be exposed
+<p>&amp;lt;h2&amp;gt;Features&amp;lt;/h2&amp;gt;
+&lt;ul&gt;
+&lt;li&gt;
+&amp;lt;p&amp;gt;Independent webOS package repository&amp;lt;/p&amp;gt;
+&lt;ul&gt;
+&lt;li&gt;Homebrew discovery, installation &amp;amp; updates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&amp;lt;p&amp;gt;(root) Root execution service that can be easily used by webOS homebrew
+  developers without a need of separate privilege escalation handling (&lt;code&gt;luna://org.webosbrew.hbchannel.service/exec&lt;/code&gt;)&amp;lt;/p&amp;gt;
+&lt;/li&gt;
+&lt;li&gt;(root) Disable some telemetry&lt;/li&gt;
+&lt;li&gt;(root) Startup user hooks (executable scripts present in &lt;code&gt;/var/lib/webosbrew/init.d&lt;/code&gt; are run on bootup)&lt;/li&gt;
+&lt;li&gt;(root) Remote access&lt;ul&gt;
+&lt;li&gt;SSH - public key authenticated (with default &lt;code&gt;alpine&lt;/code&gt; password until
+  authorized keys are provisioned)&lt;/li&gt;
+&lt;li&gt;Telnet - unauthenticated, use sparingly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;(root) Failsafe mode&lt;ul&gt;
+&lt;li&gt;In case a device crashes on boot only an emergency shell will be exposed
   via telnet. In order to disable it fix the original crash cause and remove
-  <code>/var/luna/preferences/webosbrew_failsafe</code> flag file.</li>
-</ul>
-</li>
-</ul>
-<h2>Development</h2>
-<h3>Environment</h3>
-<p>Some libraries used by this project are submodules of this repository. Use
-following command when cloning:</p>
-<div class="highlight"><pre><span></span><code>git clone --recursive https://github.com/webosbrew/webos-homebrew-channel
-</code></pre></div>
-
-<p>All required development packages are distributed via npm. In order to install
-them in a local directory run:</p>
-<div class="highlight"><pre><span></span><code>npm install
-</code></pre></div>
-
-<h3>Technology stack</h3>
-<p>Frontend is based on last development version of <a href="https://github.com/enyojs">enyo</a>.
+  &lt;code&gt;/var/luna/preferences/webosbrew_failsafe&lt;/code&gt; flag file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&amp;lt;h2&amp;gt;Development&amp;lt;/h2&amp;gt;
+&amp;lt;h3&amp;gt;Environment&amp;lt;/h3&amp;gt;
+&amp;lt;p&amp;gt;Some libraries used by this project are submodules of this repository. Use
+following command when cloning:
+&lt;code&gt;sh
+git clone --recursive https://github.com/webosbrew/webos-homebrew-channel&lt;/code&gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;All required development packages are distributed via npm. In order to install
+them in a local directory run:
+&lt;code&gt;sh
+npm install&lt;/code&gt;&amp;lt;/p&amp;gt;
+&amp;lt;h3&amp;gt;Technology stack&amp;lt;/h3&amp;gt;
+&amp;lt;p&amp;gt;Frontend is based on last development version of &lt;a href=&quot;https://github.com/enyojs&quot;&gt;enyo&lt;/a&gt;.
 (dated january 2017) While this definitely is not the cool and jazzy latest
 technology, it provides us with a sensible UI toolkit for TV-based application
 that seems to work pretty well with versions of webOS as old as 1.x. We are
-currently using enyo built-in <code>enyo-dev</code> packager. This requires us to write
+currently using enyo built-in &lt;code&gt;enyo-dev&lt;/code&gt; packager. This requires us to write
 code that&#x27;ll be run directly on target platforms (no babel/transpilation of newer
 ES dialects - no arrow functions, no const, no promises, etc.). In the future
-we may migrate to some webpack-based solution around that.</p>
-<p>Service is packaged using webpack &amp;amp; babel, thus, with enough shims and patches,
+we may migrate to some webpack-based solution around that.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Service is packaged using webpack &amp;amp; babel, thus, with enough shims and patches,
 we can write and use some modern ES features (like Promises, arrow functions,
 async functions, const, etc.) while targeting NodeJS 0.10 (used on earliest
-webOS versions)</p>
-<h3>Production build</h3>
-<div class="highlight"><pre><span></span><code>rm -rf dist <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run build -- --production <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run build-service -- --env production <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run package
-</code></pre></div>
-
-<h3>Full application testing / deployment</h3>
-<div class="highlight"><pre><span></span><code>rm -rf dist <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run build <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run build-service <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run package <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run deploy <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> npm run launch
-ssh root@10.0.0.2 -p <span class="m">9922</span> /media/developer/apps/usr/palm/services/org.webosbrew.hbchannel.service/elevate-service
-</code></pre></div>
-
-<h3>Service testing</h3>
-<div class="highlight"><pre><span></span><code>npm run build-service <span class="p">&amp;</span>amp<span class="p">;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span>amp<span class="p">;</span> <span class="se">\</span>
-    cat dist/services/service.js <span class="p">|</span> ssh root@10.0.0.2 -p <span class="m">9922</span> sh -c <span class="p">&amp;</span><span class="c1">#x27;cat &amp;amp;gt; /media/developer/apps/usr/palm/services/org.webosbrew.hbchannel.service/service.js &amp;amp;amp;&amp;amp;amp; pkill -f org.webosbrew.hbchannel.service&amp;#x27;</span>
-ssh root@10.0.0.2 -p <span class="m">9922</span> /usr/bin/run-js-service -k -n /media/developer/apps/usr/palm/services/org.webosbrew.hbchannel.service
-</code></pre></div>
+webOS versions)&amp;lt;/p&amp;gt;
+&amp;lt;h3&amp;gt;Production build&amp;lt;/h3&amp;gt;
+&amp;lt;p&amp;gt;&lt;code&gt;sh
+rm -rf dist &amp;amp;&amp;amp; npm run build -- --production &amp;amp;&amp;amp; npm run build-service -- --env production &amp;amp;&amp;amp; npm run package&lt;/code&gt;&amp;lt;/p&amp;gt;
+&amp;lt;h3&amp;gt;Full application testing / deployment&amp;lt;/h3&amp;gt;
+&amp;lt;p&amp;gt;&lt;code&gt;sh
+rm -rf dist &amp;amp;&amp;amp; npm run build &amp;amp;&amp;amp; npm run build-service &amp;amp;&amp;amp; npm run package &amp;amp;&amp;amp; npm run deploy &amp;amp;&amp;amp; npm run launch
+ssh root@10.0.0.2 -p 9922 /media/developer/apps/usr/palm/services/org.webosbrew.hbchannel.service/elevate-service&lt;/code&gt;&amp;lt;/p&amp;gt;
+&amp;lt;h3&amp;gt;Service testing&amp;lt;/h3&amp;gt;
+&amp;lt;p&amp;gt;&lt;code&gt;sh
+npm run build-service &amp;amp;&amp;amp; \
+    cat dist/services/service.js | ssh root@10.0.0.2 -p 9922 sh -c &#x27;cat &amp;gt; /media/developer/apps/usr/palm/services/org.webosbrew.hbchannel.service/service.js &amp;amp;&amp;amp; pkill -f org.webosbrew.hbchannel.service&#x27;
+ssh root@10.0.0.2 -p 9922 /usr/bin/run-js-service -k -n /media/developer/apps/usr/palm/services/org.webosbrew.hbchannel.service&lt;/code&gt;&amp;lt;/p&amp;gt;</p>
 </section>
         <section id="extras" class="body">
                 <div class="blogroll">
