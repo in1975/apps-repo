@@ -10,25 +10,89 @@
       "id": "org.chocolate-doom.demo",
       "title": "Chocolate Doom Demo",
       "iconUri": "https://raw.githubusercontent.com/webosbrew/chocolate-doom/webos-tv/data/doom.png",
-      "manifestUrl": "https://github.com/webosbrew/chocolate-doom/releases/download/webos-demo-0.0.1/org.chocolate-doom.demo.manifest.json"
+      "manifestUrl": "https://github.com/webosbrew/chocolate-doom/releases/download/webos-demo-0.0.1/org.chocolate-doom.demo.manifest.json",
+      "manifest": {
+        "id": "org.chocolate-doom.demo",
+        "version": "0.0.1",
+        "type": "native",
+        "title": "Chocolate Doom Demo",
+        "appDescription": "Technical Demo for Chocolate Doom",
+        "iconUri": "https://raw.githubusercontent.com/webosbrew/chocolate-doom/webos-tv/data/doom.png",
+        "sourceUrl": "https://github.com/webosbrew/chocolate-doom",
+        "rootRequired": false,
+        "ipkUrl": "org.chocolate-doom.demo_0.0.1_arm.ipk",
+        "ipkHash": {
+          "sha256": "564e08ed8b3d57b4e628482c4b8a6aac9de30bfdd820a4c6f844a9a84c6aef8a"
+        }
+      },
+      "shortDescription": "Technical Demo for Chocolate Doom",
+      "fullDescriptionUrl": "org.chocolate-doom.demo-full_description.html"
     },
     {
       "id": "org.webosbrew.hbchannel",
       "title": "Homebrew Channel",
       "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
-      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/latest/download/org.webosbrew.hbchannel.manifest.json"
+      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/latest/download/org.webosbrew.hbchannel.manifest.json",
+      "manifest": {
+        "id": "org.webosbrew.hbchannel",
+        "version": "0.1.1",
+        "type": "web",
+        "title": "Homebrew Channel",
+        "appDescription": "webOS Homebrew installer",
+        "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
+        "sourceUrl": "https://github.com/webosbrew/webos-homebrew-channel",
+        "rootRequired": true,
+        "ipkUrl": "org.webosbrew.hbchannel_0.1.1_all.ipk",
+        "ipkHash": {
+          "sha256": "3fbd9e6c91b3706f147c3a9d2dbfbbe4b03208e3be1b6bc65fe82ab4da6aaae2"
+        }
+      },
+      "shortDescription": "webOS Homebrew installer",
+      "fullDescriptionUrl": "org.webosbrew.hbchannel-full_description.html"
     },
     {
       "id": "com.limelight.webos",
       "title": "Moonlight",
       "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
-      "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos.manifest.json"
+      "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos.manifest.json",
+      "manifest": {
+        "id": "com.limelight.webos",
+        "version": "0.7.10",
+        "type": "native",
+        "title": "Moonlight",
+        "appDescription": "Open Source NVIDIA GameStream Client",
+        "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
+        "sourceUrl": "https://github.com/mariotaku/moonlight-tv",
+        "rootRequired": false,
+        "ipkUrl": "com.limelight.webos_0.7.10_arm.ipk",
+        "ipkHash": {
+          "sha256": "6205a2fe230aa3a928d9e1eb447341a4aec52e884bbb091edda1e2db94be0683"
+        }
+      },
+      "shortDescription": "Open Source NVIDIA GameStream Client",
+      "fullDescriptionUrl": "com.limelight.webos-full_description.html"
     },
     {
       "id": "com.retroarch",
       "title": "Retroarch",
       "iconUri": "https://github.com/webosbrew/RetroArch/raw/webos-tv-support/webos/icon160.png",
-      "manifestUrl": "https://github.com/webosbrew/RetroArch/releases/latest/download/com.retroarch.manifest.json"
+      "manifestUrl": "https://github.com/webosbrew/RetroArch/releases/latest/download/com.retroarch.manifest.json",
+      "manifest": {
+        "id": "com.retroarch",
+        "version": "1.9.1.2",
+        "type": "native",
+        "title": "RetroArch",
+        "appDescription": "Open Source emulators frontend",
+        "iconUri": "https://raw.githubusercontent.com/Informatic/RetroArch/6a1bdb45cb089f23a39a12b378082f609ea7b027/webos/icon160.png",
+        "sourceUrl": "https://github.com/Informatic/retroarch",
+        "rootRequired": false,
+        "ipkUrl": "com.retroarch_1.9.1_arm.ipk",
+        "ipkHash": {
+          "sha256": "620b85a1f589d745f20aec329fe5386cc5a39e49a5394ef9491eab57be866bfa"
+        }
+      },
+      "shortDescription": "Open Source emulators frontend",
+      "fullDescriptionUrl": "com.retroarch-full_description.html"
     }
   ]
 }

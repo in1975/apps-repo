@@ -1,0 +1,24 @@
+<p>Moonlight TV is a GUI front end for <a href="https://moonlight-stream.org/">Moonlight GameStream Client</a>. With some components from <a href="https://github.com/irtimmer/moonlight-embedded">moonlight-embedded</a>.
+It was originally designed for LG webOS TVs, but may support running on more devices in the future.</p>
+<h2>Features</h2>
+<ul>
+<li>Supports up to 4 controllers</li>
+<li>Utilizes system hardware decoder to get best performance (webOS 3/4/5)</li>
+<li>Easy to port to other OSes (Now runs on macOS, Linux, Raspberry Pi)</li>
+</ul>
+<h2>Screenshots</h2>
+<p><img alt="Launcher" src="https://user-images.githubusercontent.com/830358/106390397-9c162380-642b-11eb-948f-529e7f0d5e5e.png" /></p>
+<p><img alt="Settings" src="https://user-images.githubusercontent.com/830358/106390394-9a4c6000-642b-11eb-8870-3c8c6e4a5c78.png" /></p>
+<p><img alt="In-game Overlay" src="https://user-images.githubusercontent.com/830358/106390396-9b7d8d00-642b-11eb-8f34-58ae4f037f2e.png" /></p>
+<h2>Download</h2>
+<p>Download IPK from <a href="https://github.com/mariotaku/moonlight-tv/releases/latest">Latest release</a></p>
+<h2><a href="https://github.com/mariotaku/moonlight-tv/wiki/Installation-Guide">Installation Guide</a></h2>
+<h2><a href="https://github.com/mariotaku/moonlight-tv/wiki/Compatibility-Status">Compatibility Status</a></h2>
+<h2><a href="https://github.com/mariotaku/moonlight-tv/wiki/Gamepad-Setup">Gamepad Setup</a></h2>
+<h2>Building for webOS</h2>
+<ul>
+<li>Follow instructions <a href="https://github.com/webosbrew/meta-lg-webos-ndk">here</a> to setup NDK</li>
+<li>Create a directory e.g. <code>build</code> in project root directory, and <code>cd</code> into it.</li>
+<li>run <code>cmake .. -DTARGET_WEBOS=ON</code></li>
+<li>run <code>make webos-package-moonlight</code> to get IPK package in <code>build</code> directory</li>
+</ul>
