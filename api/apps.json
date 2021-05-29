@@ -26,7 +26,7 @@
         }
       },
       "shortDescription": "Technical Demo for Chocolate Doom",
-      "fullDescriptionUrl": "org.chocolate-doom.demo-full_description.html"
+      "fullDescriptionUrl": "apps/org.chocolate-doom.demo-full_description.html"
     },
     {
       "id": "org.webosbrew.hbchannel",
@@ -48,7 +48,7 @@
         }
       },
       "shortDescription": "webOS Homebrew installer",
-      "fullDescriptionUrl": "org.webosbrew.hbchannel-full_description.html"
+      "fullDescriptionUrl": "apps/org.webosbrew.hbchannel-full_description.html"
     },
     {
       "id": "com.limelight.webos",
@@ -70,7 +70,7 @@
         }
       },
       "shortDescription": "Open Source NVIDIA GameStream Client",
-      "fullDescriptionUrl": "com.limelight.webos-full_description.html"
+      "fullDescriptionUrl": "apps/com.limelight.webos-full_description.html"
     },
     {
       "id": "com.retroarch",
@@ -92,7 +92,7 @@
         }
       },
       "shortDescription": "Open Source emulators frontend",
-      "fullDescriptionUrl": "com.retroarch-full_description.html"
+      "fullDescriptionUrl": "apps/com.retroarch-full_description.html"
     }
   ]
 }
