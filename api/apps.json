@@ -74,7 +74,7 @@
     },
     {
       "id": "com.retroarch",
-      "title": "Retroarch",
+      "title": "RetroArch",
       "iconUri": "https://github.com/webosbrew/RetroArch/raw/webos-tv-support/webos/icon160.png",
       "manifestUrl": "https://github.com/webosbrew/RetroArch/releases/latest/download/com.retroarch.manifest.json",
       "manifest": {
@@ -96,7 +96,7 @@
     },
     {
       "id": "youtube.leanback.v4",
-      "title": "Youtube AdFree",
+      "title": "YouTube AdFree",
       "iconUri": "https://raw.githubusercontent.com/Ruthenic/youtube-webos/main/largeIcon.png",
       "manifestUrl": "https://github.com/Ruthenic/youtube-webos/releases/latest/download/youtube.leanback.v4.manifest.json",
       "manifest": {
