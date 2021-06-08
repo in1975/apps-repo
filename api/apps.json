@@ -97,7 +97,7 @@
     {
       "id": "youtube.leanback.v4",
       "title": "YouTube AdFree",
-      "iconUri": "https://raw.githubusercontent.com/Ruthenic/youtube-webos/main/largeIcon.png",
+      "iconUri": "https://raw.githubusercontent.com/Ruthenic/youtube-webos/main/assets/largeIcon.png",
       "manifestUrl": "https://github.com/Ruthenic/youtube-webos/releases/latest/download/youtube.leanback.v4.manifest.json",
       "manifest": {
         "id": "youtube.leanback.v4",
