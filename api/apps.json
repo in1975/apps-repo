@@ -79,16 +79,16 @@
       "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos.manifest.json",
       "manifest": {
         "id": "com.limelight.webos",
-        "version": "1.1.1",
+        "version": "1.1.2",
         "type": "native",
         "title": "Moonlight",
         "appDescription": "Open Source NVIDIA GameStream Client",
         "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
         "sourceUrl": "https://github.com/mariotaku/moonlight-tv",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos_1.1.1_arm.ipk",
+        "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos_1.1.2_arm.ipk",
         "ipkHash": {
-          "sha256": "e76c72651cde00e565636bcf484f6cbaa8960d2f8c369d538251fe73b0eedb66"
+          "sha256": "8ebef3625429928e07d301a102efa41d92ed77aa0aa5bb227b2c31aca0eaddd6"
         }
       },
       "shortDescription": "Open Source NVIDIA GameStream Client",
