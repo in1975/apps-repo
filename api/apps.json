@@ -13,16 +13,16 @@
       "manifestUrl": "https://github.com/webosbrew/SpaceCadetPinball/releases/latest/download/webosbrew.manifest.json",
       "manifest": {
         "id": "com.github.k4zmu2a.space-cadet-pinball",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "type": "native",
         "title": "Pinball",
         "appDescription": "Technical Demo for SpaceCadetPinball",
         "iconUri": "https://github.com/webosbrew/SpaceCadetPinball/raw/webos/webos/icon.png",
         "sourceUrl": "https://github.com/webosbrew/SpaceCadetPinball",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/webosbrew/SpaceCadetPinball/releases/latest/download/com.github.k4zmu2a.space-cadet-pinball_0.0.2_arm.ipk",
+        "ipkUrl": "https://github.com/webosbrew/SpaceCadetPinball/releases/latest/download/com.github.k4zmu2a.space-cadet-pinball_0.0.3_arm.ipk",
         "ipkHash": {
-          "sha256": "3e92948f971d8c44594bc5f10d2f7a4f4bead5638b27973454080519579eafbd"
+          "sha256": "00a35773e61d3eba3173fcf3fa2bc9804d2d24ff5c24fa488cc797afe6e16c05"
         }
       },
       "shortDescription": "Technical Demo for SpaceCadetPinball",
@@ -89,6 +89,20 @@
         "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos_1.2.0_arm.ipk",
         "ipkHash": {
           "sha256": "6894cc151fe4fc6d7bee9f9c19b24038a0b58dcd6c74fdf475d45b847d8ff007"
+        }
+      },
+      "manifestBeta": {
+        "id": "com.limelight.webos",
+        "version": "1.2.1",
+        "type": "native",
+        "title": "Moonlight",
+        "appDescription": "Open Source NVIDIA GameStream Client",
+        "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
+        "sourceUrl": "https://github.com/mariotaku/moonlight-tv",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/download/v1.2.1/com.limelight.webos_1.2.1_arm.ipk",
+        "ipkHash": {
+          "sha256": "0e4a4cfe7542302af7b442d9ec0981e2c0ff4622a16b8594809e02884437a30b"
         }
       },
       "shortDescription": "Open Source NVIDIA GameStream Client",
