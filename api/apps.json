@@ -145,15 +145,15 @@
       "manifestUrl": "https://github.com/webosbrew/youtube-webos/releases/latest/download/youtube.leanback.v4.manifest.json",
       "manifest": {
         "id": "youtube.leanback.v4",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "type": "web",
         "title": "YouTube AdFree",
         "iconUri": "https://raw.githubusercontent.com/webosbrew/youtube-webos/main/assets/largeIcon.png",
         "sourceUrl": "https://github.com/webosbrew/youtube-webos",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/webosbrew/youtube-webos/releases/latest/download/youtube.leanback.v4_0.1.0_all.ipk",
+        "ipkUrl": "https://github.com/webosbrew/youtube-webos/releases/latest/download/youtube.leanback.v4_0.1.1_all.ipk",
         "ipkHash": {
-          "sha256": "3f5da749915359653fb89ca497d7deb9bd3c6c4317681d06f03b8d858cc26101"
+          "sha256": "39198f0a859bd09ddc3daab6e54d5c6f048a0c8be6ac7128c08332f32518b62c"
         }
       },
       "shortDescription": null,
