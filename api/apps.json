@@ -79,20 +79,6 @@
       "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos.manifest.json",
       "manifest": {
         "id": "com.limelight.webos",
-        "version": "1.2.6",
-        "type": "native",
-        "title": "Moonlight",
-        "appDescription": "Open Source NVIDIA GameStream Client",
-        "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
-        "sourceUrl": "https://github.com/mariotaku/moonlight-tv",
-        "rootRequired": false,
-        "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos_1.2.6_arm.ipk",
-        "ipkHash": {
-          "sha256": "a2148bd58c20c038d12c8dcd7f77aad1b3d517679362a0ebc8d67e11b4b1a973"
-        }
-      },
-      "manifestBeta": {
-        "id": "com.limelight.webos",
         "version": "1.2.7",
         "type": "native",
         "title": "Moonlight",
@@ -100,7 +86,7 @@
         "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
         "sourceUrl": "https://github.com/mariotaku/moonlight-tv",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/download/v1.2.7/com.limelight.webos_1.2.7_arm.ipk",
+        "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos_1.2.7_arm.ipk",
         "ipkHash": {
           "sha256": "1eb5ba3a742a30d299be0f874c459a5078116fb60bd6d58a101ecf2c37237ddb"
         }
@@ -159,15 +145,15 @@
       "manifestUrl": "https://github.com/webosbrew/youtube-webos/releases/latest/download/youtube.leanback.v4.manifest.json",
       "manifest": {
         "id": "youtube.leanback.v4",
-        "version": "0.1.1",
+        "version": "0.2.0",
         "type": "web",
         "title": "YouTube AdFree",
         "iconUri": "https://raw.githubusercontent.com/webosbrew/youtube-webos/main/assets/largeIcon.png",
         "sourceUrl": "https://github.com/webosbrew/youtube-webos",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/webosbrew/youtube-webos/releases/latest/download/youtube.leanback.v4_0.1.1_all.ipk",
+        "ipkUrl": "https://github.com/webosbrew/youtube-webos/releases/latest/download/youtube.leanback.v4_0.2.0_all.ipk",
         "ipkHash": {
-          "sha256": "39198f0a859bd09ddc3daab6e54d5c6f048a0c8be6ac7128c08332f32518b62c"
+          "sha256": "e5be0359bdcfac8119f4211361e966214b3aaf87a92c1c9274d5c13400fd6569"
         }
       },
       "shortDescription": null,
