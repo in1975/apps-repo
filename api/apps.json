@@ -166,16 +166,16 @@
       "manifestUrl": "https://github.com/informatic/streamkatze/releases/latest/download/org.webosbrew.streamkatze.manifest.json",
       "manifest": {
         "id": "org.webosbrew.streamkatze",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "type": "web",
         "title": "streamkatze",
         "appDescription": "Minimal streaming.media.ccc.de player application (EXPERIMENTAL)",
         "iconUri": "https://raw.githubusercontent.com/informatic/streamkatze/main/assets/icon130.png",
         "sourceUrl": "https://github.com/informatic/streamkatze",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/informatic/streamkatze/releases/latest/download/org.webosbrew.streamkatze_0.1.0_all.ipk",
+        "ipkUrl": "https://github.com/informatic/streamkatze/releases/latest/download/org.webosbrew.streamkatze_0.1.1_all.ipk",
         "ipkHash": {
-          "sha256": "d53c005f448191d40ac21a1732e6a0d9d6f91a405dbde5cee65fb5810f5c31d6"
+          "sha256": "9803d953f48173fa378e29077bf1b2b416d377d194181f55c92d1af3e805e139"
         }
       },
       "shortDescription": "Minimal streaming.media.ccc.de player application (EXPERIMENTAL)",
