@@ -10,7 +10,7 @@
       "id": "com.github.k4zmu2a.space-cadet-pinball",
       "title": "3D Pinball \u2013 Space Cadet",
       "iconUri": "https://github.com/webosbrew/SpaceCadetPinball/raw/webos/webos/icon.png",
-      "manifestUrl": "https://github.com/webosbrew/SpaceCadetPinball/releases/latest/download/webosbrew.manifest.json",
+      "manifestUrl": "https://github.com/webosbrew/SpaceCadetPinball/releases/download/v0.0.3/webosbrew.manifest.json",
       "manifest": {
         "id": "com.github.k4zmu2a.space-cadet-pinball",
         "version": "0.0.3",
@@ -54,7 +54,7 @@
       "id": "org.webosbrew.hbchannel",
       "title": "Homebrew Channel",
       "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
-      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/latest/download/org.webosbrew.hbchannel.manifest.json",
+      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.3.2/org.webosbrew.hbchannel.manifest.json",
       "manifest": {
         "id": "org.webosbrew.hbchannel",
         "version": "0.3.2",
@@ -76,7 +76,7 @@
       "id": "com.limelight.webos",
       "title": "Moonlight",
       "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
-      "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos.manifest.json",
+      "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/download/v1.3.0-1/com.limelight.webos.manifest.json",
       "manifest": {
         "id": "com.limelight.webos",
         "version": "1.3.0",
@@ -98,7 +98,7 @@
       "id": "org.webosbrew.piccap",
       "title": "PicCap - Hyperion Sender App",
       "iconUri": "https://raw.githubusercontent.com/TBSniller/piccap/main/piccap/logo_big.png",
-      "manifestUrl": "https://github.com/TBSniller/piccap/releases/latest/download/org.webosbrew.piccap.manifest.json",
+      "manifestUrl": "https://github.com/TBSniller/piccap/releases/download/0.1.0/org.webosbrew.piccap.manifest.json",
       "manifest": {
         "id": "org.webosbrew.piccap",
         "version": "0.1.0",
@@ -120,7 +120,7 @@
       "id": "com.retroarch",
       "title": "RetroArch",
       "iconUri": "https://github.com/webosbrew/RetroArch/raw/webos-tv-support/webos/icon160.png",
-      "manifestUrl": "https://github.com/webosbrew/RetroArch/releases/latest/download/com.retroarch.manifest.json",
+      "manifestUrl": "https://github.com/webosbrew/RetroArch/releases/download/v1.9.1-webos.2/com.retroarch.manifest.json",
       "manifest": {
         "id": "com.retroarch",
         "version": "1.9.1.2",
@@ -142,7 +142,7 @@
       "id": "youtube.leanback.v4",
       "title": "YouTube AdFree",
       "iconUri": "https://raw.githubusercontent.com/webosbrew/youtube-webos/main/assets/largeIcon.png",
-      "manifestUrl": "https://github.com/webosbrew/youtube-webos/releases/latest/download/youtube.leanback.v4.manifest.json",
+      "manifestUrl": "https://github.com/webosbrew/youtube-webos/releases/download/v0.2.1/youtube.leanback.v4.manifest.json",
       "manifest": {
         "id": "youtube.leanback.v4",
         "version": "0.2.1",
@@ -163,7 +163,7 @@
       "id": "org.webosbrew.streamkatze",
       "title": "streamkatze",
       "iconUri": "https://raw.githubusercontent.com/informatic/streamkatze/main/assets/icon130.png",
-      "manifestUrl": "https://github.com/informatic/streamkatze/releases/latest/download/org.webosbrew.streamkatze.manifest.json",
+      "manifestUrl": "https://github.com/informatic/streamkatze/releases/download/v0.1.1/org.webosbrew.streamkatze.manifest.json",
       "manifest": {
         "id": "org.webosbrew.streamkatze",
         "version": "0.1.1",
