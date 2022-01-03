@@ -20,7 +20,7 @@
         "iconUri": "https://github.com/webosbrew/SpaceCadetPinball/raw/webos/webos/icon.png",
         "sourceUrl": "https://github.com/webosbrew/SpaceCadetPinball",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/webosbrew/SpaceCadetPinball/releases/latest/download/com.github.k4zmu2a.space-cadet-pinball_0.0.3_arm.ipk",
+        "ipkUrl": "https://github.com/webosbrew/SpaceCadetPinball/releases/download/v0.0.3/com.github.k4zmu2a.space-cadet-pinball_0.0.3_arm.ipk",
         "ipkHash": {
           "sha256": "00a35773e61d3eba3173fcf3fa2bc9804d2d24ff5c24fa488cc797afe6e16c05"
         }
@@ -64,7 +64,7 @@
         "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
         "sourceUrl": "https://github.com/webosbrew/webos-homebrew-channel",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/latest/download/org.webosbrew.hbchannel_0.3.2_all.ipk",
+        "ipkUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.3.2/org.webosbrew.hbchannel_0.3.2_all.ipk",
         "ipkHash": {
           "sha256": "452fc9aa0a283b79cfeab508be69a8b40d5891c290e789cbbcdf90b958ec202f"
         }
@@ -86,7 +86,7 @@
         "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
         "sourceUrl": "https://github.com/mariotaku/moonlight-tv",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/latest/download/com.limelight.webos_1.3.0_arm.ipk",
+        "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/download/v1.3.0-1/com.limelight.webos_1.3.0_arm.ipk",
         "ipkHash": {
           "sha256": "d0c7f3922da480067744b5c64e2b3b8acec578d87f89e7d2264850d5d5c0e4fd"
         }
@@ -108,7 +108,7 @@
         "iconUri": "https://raw.githubusercontent.com/TBSniller/piccap/main/piccap/logo_big.png",
         "sourceUrl": "https://github.com/TBSniller/piccap",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/TBSniller/piccap/releases/latest/download/org.webosbrew.piccap_0.1.0_all.ipk",
+        "ipkUrl": "https://github.com/TBSniller/piccap/releases/download/0.1.0/org.webosbrew.piccap_0.1.0_all.ipk",
         "ipkHash": {
           "sha256": "ce183c90ae3740363d1a4d170758d25dd2447f5d65e4ca5dedc1652e075361d8"
         }
@@ -130,7 +130,7 @@
         "iconUri": "https://raw.githubusercontent.com/Informatic/RetroArch/6a1bdb45cb089f23a39a12b378082f609ea7b027/webos/icon160.png",
         "sourceUrl": "https://github.com/Informatic/retroarch",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/webosbrew/RetroArch/releases/latest/download/com.retroarch_1.9.1_arm.ipk",
+        "ipkUrl": "https://github.com/webosbrew/RetroArch/releases/download/v1.9.1-webos.2/com.retroarch_1.9.1_arm.ipk",
         "ipkHash": {
           "sha256": "620b85a1f589d745f20aec329fe5386cc5a39e49a5394ef9491eab57be866bfa"
         }
@@ -151,7 +151,7 @@
         "iconUri": "https://raw.githubusercontent.com/webosbrew/youtube-webos/main/assets/largeIcon.png",
         "sourceUrl": "https://github.com/webosbrew/youtube-webos",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/webosbrew/youtube-webos/releases/latest/download/youtube.leanback.v4_0.2.1_all.ipk",
+        "ipkUrl": "https://github.com/webosbrew/youtube-webos/releases/download/v0.2.1/youtube.leanback.v4_0.2.1_all.ipk",
         "ipkHash": {
           "sha256": "31ee79b46b8b4797e3f27352038ca9475f9ea2eca914d0fd763ec277ea668ad7"
         }
@@ -173,7 +173,7 @@
         "iconUri": "https://raw.githubusercontent.com/informatic/streamkatze/main/assets/icon130.png",
         "sourceUrl": "https://github.com/informatic/streamkatze",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/informatic/streamkatze/releases/latest/download/org.webosbrew.streamkatze_0.1.1_all.ipk",
+        "ipkUrl": "https://github.com/informatic/streamkatze/releases/download/v0.1.1/org.webosbrew.streamkatze_0.1.1_all.ipk",
         "ipkHash": {
           "sha256": "9803d953f48173fa378e29077bf1b2b416d377d194181f55c92d1af3e805e139"
         }
