@@ -96,7 +96,7 @@
     {
       "id": "com.limelight.webos",
       "title": "Moonlight",
-      "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
+      "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon_large.png",
       "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/download/v1.3.0-1/com.limelight.webos.manifest.json",
       "manifest": {
         "id": "com.limelight.webos",
