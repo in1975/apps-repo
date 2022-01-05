@@ -53,7 +53,7 @@
     {
       "id": "com.crunchyroll.webos",
       "title": "Crunchyroll",
-      "iconUri": "https://raw.githubusercontent.com/mateussouzaweb/crunchyroll-webos/master/src/img/80px.png",
+      "iconUri": "https://raw.githubusercontent.com/mateussouzaweb/crunchyroll-webos/master/src/img/130px.png",
       "manifestUrl": "https://github.com/mateussouzaweb/crunchyroll-webos/releases/download/v1.5.1/webosbrew.manifest.json",
       "manifest": {
         "id": "com.crunchyroll.webos",
