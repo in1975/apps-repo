@@ -1,0 +1,6 @@
+#content .main img {
+  max-width: 100%; }
+  #content .main img.app-icon {
+    max-width: 80px;
+    margin-top: -20px;
+    float: right; }
