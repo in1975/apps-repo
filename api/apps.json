@@ -23,7 +23,8 @@
         "ipkUrl": "https://github.com/webosbrew/SpaceCadetPinball/releases/download/v0.0.3/com.github.k4zmu2a.space-cadet-pinball_0.0.3_arm.ipk",
         "ipkHash": {
           "sha256": "00a35773e61d3eba3173fcf3fa2bc9804d2d24ff5c24fa488cc797afe6e16c05"
-        }
+        },
+        "ipkSize": 7465122
       },
       "shortDescription": "Technical Demo for SpaceCadetPinball",
       "fullDescriptionUrl": "apps/com.github.k4zmu2a.space-cadet-pinball-full_description.html"
@@ -45,7 +46,8 @@
         "ipkUrl": "https://github.com/webosbrew/chocolate-doom/releases/download/webos-demo-0.0.1/org.chocolate-doom.demo_0.0.1_arm.ipk",
         "ipkHash": {
           "sha256": "564e08ed8b3d57b4e628482c4b8a6aac9de30bfdd820a4c6f844a9a84c6aef8a"
-        }
+        },
+        "ipkSize": 3218138
       },
       "shortDescription": "Technical Demo for Chocolate Doom",
       "fullDescriptionUrl": "apps/org.chocolate-doom.demo-full_description.html"
@@ -66,7 +68,8 @@
         "ipkUrl": "https://github.com/mateussouzaweb/crunchyroll-webos/releases/download/v1.5.1/com.crunchyroll.webos_1.5.1_all.ipk",
         "ipkHash": {
           "sha256": "620b05a8f4ab70ebee838bf846b6f31347b258e68b8026e3fedaeeb70811df74"
-        }
+        },
+        "ipkSize": 976244
       },
       "shortDescription": null,
       "fullDescriptionUrl": "apps/com.crunchyroll.webos-full_description.html"
@@ -88,7 +91,8 @@
         "ipkUrl": "https://github.com/webosbrew/custom-screensaver/releases/download/v1.0.1/org.webosbrew.custom-screensaver_1.0.1_all.ipk",
         "ipkHash": {
           "sha256": "436f1ccc5a3976ae3cd85ca4a8e4fc6156c309b59e53563ff906c629728fdbca"
-        }
+        },
+        "ipkSize": 780292
       },
       "shortDescription": "The last custom webOS Screensaver you will ever need",
       "fullDescriptionUrl": "apps/org.webosbrew.custom-screensaver-full_description.html"
@@ -110,7 +114,8 @@
         "ipkUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.3.2/org.webosbrew.hbchannel_0.3.2_all.ipk",
         "ipkHash": {
           "sha256": "452fc9aa0a283b79cfeab508be69a8b40d5891c290e789cbbcdf90b958ec202f"
-        }
+        },
+        "ipkSize": 1474750
       },
       "shortDescription": "webOS Homebrew installer",
       "fullDescriptionUrl": "apps/org.webosbrew.hbchannel-full_description.html"
@@ -132,7 +137,8 @@
         "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/download/v1.3.0-1/com.limelight.webos_1.3.0_arm.ipk",
         "ipkHash": {
           "sha256": "d0c7f3922da480067744b5c64e2b3b8acec578d87f89e7d2264850d5d5c0e4fd"
-        }
+        },
+        "ipkSize": 905334
       },
       "shortDescription": "Open Source NVIDIA GameStream Client",
       "fullDescriptionUrl": "apps/com.limelight.webos-full_description.html"
@@ -154,7 +160,8 @@
         "ipkUrl": "https://github.com/TBSniller/piccap/releases/download/0.1.0/org.webosbrew.piccap_0.1.0_all.ipk",
         "ipkHash": {
           "sha256": "ce183c90ae3740363d1a4d170758d25dd2447f5d65e4ca5dedc1652e075361d8"
-        }
+        },
+        "ipkSize": 1040400
       },
       "shortDescription": "Hyperion Sender App - Ambilight for WebOS",
       "fullDescriptionUrl": "apps/org.webosbrew.piccap-full_description.html"
@@ -176,7 +183,8 @@
         "ipkUrl": "https://github.com/webosbrew/RetroArch/releases/download/v1.9.1-webos.2/com.retroarch_1.9.1_arm.ipk",
         "ipkHash": {
           "sha256": "620b85a1f589d745f20aec329fe5386cc5a39e49a5394ef9491eab57be866bfa"
-        }
+        },
+        "ipkSize": 2443386
       },
       "shortDescription": "Open Source emulators frontend",
       "fullDescriptionUrl": "apps/com.retroarch-full_description.html"
@@ -197,7 +205,8 @@
         "ipkUrl": "https://github.com/webosbrew/youtube-webos/releases/download/v0.2.1/youtube.leanback.v4_0.2.1_all.ipk",
         "ipkHash": {
           "sha256": "31ee79b46b8b4797e3f27352038ca9475f9ea2eca914d0fd763ec277ea668ad7"
-        }
+        },
+        "ipkSize": 131540
       },
       "shortDescription": null,
       "fullDescriptionUrl": "apps/youtube.leanback.v4-full_description.html"
@@ -219,7 +228,8 @@
         "ipkUrl": "https://github.com/informatic/streamkatze/releases/download/v0.1.1/org.webosbrew.streamkatze_0.1.1_all.ipk",
         "ipkHash": {
           "sha256": "9803d953f48173fa378e29077bf1b2b416d377d194181f55c92d1af3e805e139"
-        }
+        },
+        "ipkSize": 300004
       },
       "shortDescription": "Minimal streaming.media.ccc.de player application (EXPERIMENTAL)",
       "fullDescriptionUrl": "apps/org.webosbrew.streamkatze-full_description.html"
