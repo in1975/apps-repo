@@ -3,7 +3,8 @@
   #content .main .app-icon {
     width: 160px;
     height: 160px;
-    float: left; }
+    float: left;
+    margin-right: 20px; }
     #content .main .app-info {
       display: flex;
       flex-flow: column;
