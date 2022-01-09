@@ -1,38 +1,42 @@
-#content .main img {
-  max-width: 100%; }
-  #content .main .app-icon {
-    width: 160px;
-    height: 160px;
-    float: left;
-    margin-right: 20px; }
-    #content .main .app-info {
-      display: flex;
-      flex-flow: column;
-      min-height: 160px; }
-      #content .main .app-info .app-title {
-        margin-top: 10px; }
-        #content .main .app-info .app-actions {
-          margin: auto 10px 10px auto;
-          padding-top: 10px; }
-          #content .main .app-info .app-actions .app-action {
-            height: 48px;
-            padding: 5px 10px;
-            box-sizing: border-box;
-            overflow: hidden;
-            background-color: var(--color-accent);
-            border-radius: 5px;
-            color: white; }
-            #content .main .app-info .app-actions .download-ipk .title {
-              font-size: 15px; }
-              #content .main .app-info .app-actions .download-ipk .version {
-                display: inline-block;
-                font-size: 12px;
-                float: left; }
-                #content .main .app-info .app-actions .download-ipk .size {
+#content .main {
+  overflow-x: hidden; }
+  #content .main img {
+    max-width: 100%; }
+    #content .main .app-icon {
+      width: 160px;
+      height: 160px;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 10px; }
+      #content .main .app-info {
+        display: flex;
+        flex-flow: column;
+        min-height: 160px;
+        margin-bottom: 10px; }
+        #content .main .app-info .app-title {
+          margin-top: 10px; }
+          #content .main .app-info .app-actions {
+            margin: auto 10px 10px auto;
+            padding-top: 10px; }
+            #content .main .app-info .app-actions .app-action {
+              height: 48px;
+              padding: 5px 10px;
+              box-sizing: border-box;
+              overflow: hidden;
+              background-color: var(--color-accent);
+              border-radius: 5px;
+              color: white; }
+              #content .main .app-info .app-actions .download-ipk .title {
+                font-size: 15px; }
+                #content .main .app-info .app-actions .download-ipk .version {
                   display: inline-block;
                   font-size: 12px;
-                  float: right; }
-                  #content .main .app-info .app-actions .download-ipk hr {
-                    margin: 2px 0;
-                    border-color: rgba(255, 255, 255, 0.5);
-                    border-width: 1px; }
+                  float: left; }
+                  #content .main .app-info .app-actions .download-ipk .size {
+                    display: inline-block;
+                    font-size: 12px;
+                    float: right; }
+                    #content .main .app-info .app-actions .download-ipk hr {
+                      margin: 2px 0;
+                      border-color: rgba(255, 255, 255, 0.5);
+                      border-width: 1px; }
