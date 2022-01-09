@@ -18,7 +18,7 @@
             padding: 5px 10px;
             box-sizing: border-box;
             overflow: hidden;
-            background-color: var("--color-accent");
+            background-color: var(--color-accent);
             border-radius: 5px;
             color: white; }
             #content .main .app-info .app-actions .download-ipk .title {
