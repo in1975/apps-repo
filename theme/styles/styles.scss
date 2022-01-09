@@ -8,9 +8,26 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+* {
+
+  > a.headerlink {
+    visibility: hidden;
+  }
+
+  &:hover {
+    > a.headerlink {
+      visibility: visible;
+    }
+  }
+}
+
 a, a:visited {
   color: $color-accent;
   text-decoration: none;
+
+  &.headerlink {
+    margin-left: 10px;
+  }
 
   &:hover {
     text-decoration: underline;
@@ -49,10 +66,12 @@ div#content {
     border: $color-border 1px solid;
     border-radius: 4px;
   }
+
   .side {
     hr {
       margin: 10px 0;
     }
+
     .links {
       list-style: none;
       padding-inline: 0;
