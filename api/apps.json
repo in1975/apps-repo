@@ -55,7 +55,7 @@
     {
       "id": "com.crunchyroll.webos",
       "title": "Crunchyroll",
-      "iconUri": "https://raw.githubusercontent.com/mateussouzaweb/crunchyroll-webos/master/src/img/512px.png",
+      "iconUri": "https://raw.githubusercontent.com/mateussouzaweb/crunchyroll-webos/master/src/img/130px.png",
       "manifestUrl": "https://github.com/mateussouzaweb/crunchyroll-webos/releases/download/v1.5.1/webosbrew.manifest.json",
       "manifest": {
         "id": "com.crunchyroll.webos",
@@ -123,7 +123,7 @@
     {
       "id": "com.limelight.webos",
       "title": "Moonlight",
-      "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/res/moonlight_320.png",
+      "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon_large.png",
       "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/download/v1.3.0-1/com.limelight.webos.manifest.json",
       "manifest": {
         "id": "com.limelight.webos",
