@@ -34,7 +34,10 @@
           border-radius: 5px;
           color: white; }
           .app-info .app-actions .download-ipk .title {
-            font-size: 15px; }
+            font-size: 15px;
+            border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+            padding-bottom: 2px;
+            margin-bottom: 2px; }
             .app-info .app-actions .download-ipk .version {
               display: inline-block;
               font-size: 12px;
@@ -43,10 +46,6 @@
                 display: inline-block;
                 font-size: 12px;
                 float: right; }
-                .app-info .app-actions .download-ipk hr {
-                  margin: 2px 0;
-                  border-color: rgba(255, 255, 255, 0.5);
-                  border-width: 1px; }
 
 @media (max-width: 960px) {
   .app-icon {

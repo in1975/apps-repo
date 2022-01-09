@@ -9,7 +9,7 @@
     {
       "id": "com.github.k4zmu2a.space-cadet-pinball",
       "title": "3D Pinball \u2013 Space Cadet",
-      "iconUri": "https://github.com/webosbrew/SpaceCadetPinball/raw/webos/webos/icon.png",
+      "iconUri": "https://raw.githubusercontent.com/webosbrew/SpaceCadetPinball/webos/webos/icon.png",
       "manifestUrl": "https://github.com/webosbrew/SpaceCadetPinball/releases/download/v0.0.3/webosbrew.manifest.json",
       "manifest": {
         "id": "com.github.k4zmu2a.space-cadet-pinball",
@@ -123,7 +123,7 @@
     {
       "id": "com.limelight.webos",
       "title": "Moonlight",
-      "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon_large.png",
+      "iconUri": "https://raw.githubusercontent.com/mariotaku/moonlight-tv/main/deploy/webos/icon_large.png",
       "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/download/v1.3.0-1/com.limelight.webos.manifest.json",
       "manifest": {
         "id": "com.limelight.webos",
@@ -169,7 +169,7 @@
     {
       "id": "com.retroarch",
       "title": "RetroArch",
-      "iconUri": "https://github.com/webosbrew/RetroArch/raw/webos-tv-support/webos/icon160.png",
+      "iconUri": "https://raw.githubusercontent.com/webosbrew/RetroArch/webos-tv-support/webos/icon160.png",
       "manifestUrl": "https://github.com/webosbrew/RetroArch/releases/download/v1.9.1-webos.2/com.retroarch.manifest.json",
       "manifest": {
         "id": "com.retroarch",
