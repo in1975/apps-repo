@@ -1,9 +1,9 @@
 {
   "paging": {
     "page": 1,
-    "count": 10,
+    "count": 11,
     "maxPage": 1,
-    "itemsTotal": 10
+    "itemsTotal": 11
   },
   "packages": [
     {
@@ -119,6 +119,29 @@
       },
       "shortDescription": "webOS Homebrew installer",
       "fullDescriptionUrl": "apps/org.webosbrew.hbchannel-full_description.html"
+    },
+    {
+      "id": "org.jellyfin.webos",
+      "title": "Jellyfin",
+      "iconUri": "https://raw.githubusercontent.com/jellyfin/jellyfin-webos/master/frontend/assets/icon-130.png",
+      "manifestUrl": "https://github.com/jellyfin/jellyfin-webos/releases/download/v1.0.1/org.jellyfin.webos.manifest.json",
+      "manifest": {
+        "id": "org.jellyfin.webos",
+        "version": "1.0.1",
+        "type": "web",
+        "title": "Jellyfin",
+        "appDescription": "A webOS client to connect to a Jellyfin Server instance and stream media.",
+        "iconUri": "https://github.com/jellyfin/jellyfin-webos/raw/master/org.jellyfin.webos/submission-icon.png",
+        "sourceUrl": "https://github.com/jellyfin/jellyfin-webos",
+        "rootRequired": true,
+        "ipkUrl": "https://github.com/jellyfin/jellyfin-webos/releases/download/v1.0.1/org.jellyfin.webos_1.0.1_all.ipk",
+        "ipkHash": {
+          "sha256": "d7bf2a3407f867e4b8c88905c65e4f9f22372e8d73b4ca4e8c3fa08a560e013a"
+        },
+        "ipkSize": 161474
+      },
+      "shortDescription": "A webOS client to connect to a Jellyfin Server instance and stream media.",
+      "fullDescriptionUrl": "apps/org.jellyfin.webos-full_description.html"
     },
     {
       "id": "com.limelight.webos",
