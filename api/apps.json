@@ -115,7 +115,7 @@
         "ipkHash": {
           "sha256": "452fc9aa0a283b79cfeab508be69a8b40d5891c290e789cbbcdf90b958ec202f"
         },
-        "ipkSize": 1474750
+        "ipkSize": 489
       },
       "shortDescription": "webOS Homebrew installer",
       "fullDescriptionUrl": "apps/org.webosbrew.hbchannel-full_description.html"
