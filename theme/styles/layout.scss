@@ -55,6 +55,7 @@ header {
     flex: 1 1 auto;
     padding: 20px;
     box-sizing: border-box;
+    position: relative;
   }
 
   .side {
@@ -62,6 +63,11 @@ header {
     flex: 0 0 auto;
   }
 
+  .page-source {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
 }
 
 footer {
