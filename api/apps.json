@@ -105,21 +105,21 @@
       "id": "org.webosbrew.hbchannel",
       "title": "Homebrew Channel",
       "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
-      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.4.0/org.webosbrew.hbchannel.manifest.json",
+      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.5.0/org.webosbrew.hbchannel.manifest.json",
       "manifest": {
         "id": "org.webosbrew.hbchannel",
-        "version": "0.4.0",
+        "version": "0.5.0",
         "type": "web",
         "title": "Homebrew Channel",
         "appDescription": "webOS Homebrew installer",
         "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
         "sourceUrl": "https://github.com/webosbrew/webos-homebrew-channel",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.4.0/org.webosbrew.hbchannel_0.4.0_all.ipk",
+        "ipkUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.5.0/org.webosbrew.hbchannel_0.5.0_all.ipk",
         "ipkHash": {
-          "sha256": "fe3f335bf8d30f73d95b9adaf44ca636b2339ebdbf795d99b20f49938316f344"
+          "sha256": "daec5b88684c66387a7822e5492a4ef5075b64ad0a5619854d90f95e048e2715"
         },
-        "ipkSize": 1478220
+        "ipkSize": 1436054
       },
       "pool": "main",
       "shortDescription": "webOS Homebrew installer",
