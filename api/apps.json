@@ -58,20 +58,20 @@
       "id": "com.crunchyroll.webos",
       "title": "Crunchyroll",
       "iconUri": "https://raw.githubusercontent.com/mateussouzaweb/crunchyroll-webos/master/src/img/130px.png",
-      "manifestUrl": "https://github.com/mateussouzaweb/crunchyroll-webos/releases/download/v1.6.0/webosbrew.manifest.json",
+      "manifestUrl": "https://github.com/mateussouzaweb/crunchyroll-webos/releases/download/v1.8.0/webosbrew.manifest.json",
       "manifest": {
         "id": "com.crunchyroll.webos",
-        "version": "1.6.0",
+        "version": "1.8.0",
         "type": "web",
         "title": "Crunchyroll",
-        "iconUri": "https://raw.githubusercontent.com/mateussouzaweb/crunchyroll-webos/master/src/img/80px.png",
+        "iconUri": "https://raw.githubusercontent.com/mateussouzaweb/crunchyroll-webos/master/src/images/80px.png",
         "sourceUrl": "https://github.com/mateussouzaweb/crunchyroll-webos",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/mateussouzaweb/crunchyroll-webos/releases/download/v1.6.0/com.crunchyroll.webos_1.6.0_all.ipk",
+        "ipkUrl": "https://github.com/mateussouzaweb/crunchyroll-webos/releases/download/v1.8.0/com.crunchyroll.webos_1.8.0_all.ipk",
         "ipkHash": {
-          "sha256": "a66c98a034ceaf1f6fcf418cb77b33b4223c1a1feeb3c7d8c8642df69ac7ddee"
+          "sha256": "55fc84ef8a2c56584b10c6edd6c806427511d604362d047339d3afa19d188edc"
         },
-        "ipkSize": 993268
+        "ipkSize": 1035152
       },
       "pool": "main",
       "shortDescription": null,
