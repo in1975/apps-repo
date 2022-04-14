@@ -1,0 +1,18 @@
+<p><strong>In early stage development</strong>  </p>
+<p>This is a GUI frontend for hyperion sender.  </p>
+<p><img alt="image" src="https://user-images.githubusercontent.com/51515147/139295840-fd57d90d-8583-45e5-9284-04cedae2647e.png" />  </p>
+<h2>Features</h2>
+<ol>
+<li>Autostart</li>
+<li>No CLI-needs after first setup  </li>
+</ol>
+<h2>Before first start</h2>
+<p><strong>To get HBChannel services available to the PicCap-Service, this command has to be run before the first app start:</strong><br />
+<code>sed -i 's/org.webosbrew.hbchannel.service.group/public/g' /var/luna-service2-dev/api-permissions.d/org.webosbrew.hbchannel.service.api.json; reboot</code>
+Please also see the Readme-Page of this project for further information.</p>
+<h2>Known issues</h2>
+<ol>
+<li>FPS Limit isn't working  </li>
+<li>libvt (older TVs) not in active development, so only experimental. -&gt; No autostart after TV suspend</li>
+</ol>
+<p>I'm not a real programmer and all this stuff is really new to me. The only reason this exists, is because I just badly wanted it for any cost. Feel free to create an issue or pull request if you can make things better.  </p>

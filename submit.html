@@ -1,32 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <title>Submit Application | webOS Homebrew Project</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="generator" content="Pelican"/>
-    <link href="/theme/styles/main.css?04bfa1c2" type="text/css" rel="stylesheet">
-
-
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Submit Application</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
 </head>
 
 <body id="index" class="home">
-<header>
-    <div class="logo">
-        <a href="/"><img src="/theme/images/icon80.png" width="40px" height="40px" alt="webOS Homebrew logo"></a>
-    </div>
-    <nav id="menu">
-        <ul>
-            <li><a href="/apps">Applications</a></li>
-            <li><a href="/submit">Submit</a></li>
-        </ul>
-    </nav><!-- /#menu -->
-</header>
-<div id="content">
-    <div class="main">
-    <h1>Submit Application</h1>
+        <header id="banner" class="body">
+                <h1><a href="/">webOS Homebrew Project</a></h1>
+                <nav><ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/apps">Applications</a></li>
+                    <li><a href="/submit">Submit Application</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+    <h1 class="entry-title">Submit Application</h1>
     
-
     <p>Before submitting your application, please make sure it complies following basic rules:</p>
 <ol>
 <li><strong>NO PIRACY</strong>. We refuse to endorse or host any kind of information related to priacy, as well as breaking DRM protected content and applications. For IPTV services <strong>only legal IPTV services are allowed</strong>.</li>
@@ -34,9 +27,9 @@
 <li>If you are making a port to existing applications, please make sure that you are following original project's open source license.</li>
 </ol>
 <p>To submit your application to this central repository, refer to following steps:</p>
-<h3 id="fork-this-repository">Fork This Repository<a class="headerlink" href="#fork-this-repository" title="Permanent link">&para;</a></h3>
+<h3>Fork This Repository</h3>
 <p>TODO: Submit without GitHub</p>
-<h3 id="add-your-application">Add Your Application<a class="headerlink" href="#add-your-application" title="Permanent link">&para;</a></h3>
+<h3>Add Your Application</h3>
 <p>Create a file named <code>your-package-name.yml</code> in <code>packages</code>. Example:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Display name of your application</span><span class="w"></span>
 <span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Homebrew Channel</span><span class="w"></span>
@@ -46,43 +39,49 @@
 <span class="nt">manifestUrl</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/webosbrew/webos-homebrew-channel/releases/latest/download/org.webosbrew.hbchannel.manifest.json</span><span class="w"></span>
 <span class="c1"># Category for your application</span><span class="w"></span>
 <span class="nt">category</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tools</span><span class="w"></span>
-<span class="c1"># If this is an open source application, use main, otherwise non-free</span><span class="w"></span>
-<span class="nt">pool</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">main</span><span class="w"></span>
 <span class="c1"># Long description for your application, in Markdown format</span><span class="w"></span>
 <span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span><span class="w"></span>
-<span class="w">  </span><span class="no">Description in markdown format, we suggest you to add some screenshots to help users understand</span><span class="w"></span>
-<span class="c1"># Sponsor information, like .github/FUNDING.yml</span><span class="w"></span>
-<span class="nt">funding</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">github</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">your-name</span><span class="p p-Indicator">]</span><span class="w"></span>
+<span class="w">  </span><span class="no">Markdown text</span><span class="w"></span>
 </code></pre></div>
 
-<h3 id="submit-a-pull-request">Submit a Pull Request<a class="headerlink" href="#submit-a-pull-request" title="Permanent link">&para;</a></h3>
+<h3>Submit a Pull Request</h3>
 <p>We'll be reviewing and testing your application, then merge it to our main branch. Then your application will be available to download by other users shortly.</p>
-<h2 id="report-an-inappropriate-application">Report an Inappropriate Application<a class="headerlink" href="#report-an-inappropriate-application" title="Permanent link">&para;</a></h2>
+<h2>Report an Inappropriate Application</h2>
 <p>If you find any application listed is not appropriate according to rule above, please <a href="https://github.com/webosbrew/apps-repo/issues/new">submit an issue</a>.</p>
-<h2 id="self-host-a-repository">Self-Host a Repository<a class="headerlink" href="#self-host-a-repository" title="Permanent link">&para;</a></h2>
+<h2>Self-Host a Repository</h2>
 <p>TODO: Make this repo configurable</p>
-<h2 id="related-resources">Related Resources<a class="headerlink" href="#related-resources" title="Permanent link">&para;</a></h2>
+<h2>Related Resources</h2>
 <ul>
 <li><a href="https://github.com/webosbrew/webos-homebrew-channel">webOS Homebrew Channel</a></li>
 <li><a href="https://github.com/webosbrew/docs">Documentation</a></li>
 <li><a href="https://github.com/webosbrew/meta-lg-webos-ndk">Unofficial webOS NDK</a></li>
 <li><a href="https://openlgtv.github.io/">openlgtv Project</a></li>
 </ul>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://github.com/webosbrew/">webOS Homebrew</a></li>
+                            <li><a href="https://openlgtv.github.io/">openlgtv</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
 
-    </div>
-    <div class="side">
-<h3>Links</h3>
-<ul class="links">
-    <li><a href="https://github.com/webosbrew/">Github Organization</a></li>
-    <li><a href="https://discord.gg/xWqRVEm">Join us on Discord</a></li>
-    <li><a href="https://rootmy.tv/">RootMy.TV</a></li>
-    <li><a href="https://openlgtv.github.io/">openlgtv</a></li>
-</ul>    </div><!-- /.blogroll -->
-</div>
-<hr>
-<footer id="contentinfo" class="body">
-    <div class="copyright">&copy; 2022 webOS Homebrew Project</div>
-    <div class="powered-by">Powered by <a href="https://getpelican.com/">Pelican</a></div>
-</footer><!-- /#contentinfo --></body>
+                            <li><a href="https://discord.gg/xWqRVEm">openlgtv Discord</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
 </html>
