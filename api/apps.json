@@ -41,7 +41,7 @@
         "type": "web",
         "title": "webosapp tools",
         "iconUri": "https://www.miraclegroup.com/wp-content/uploads/2018/01/Tailoring-ICO-Platform-130x130.png",
-        "sourceUrl": "https://github.com/in1975/in1975.github.io",
+        "sourceUrl": "https://github.com/in1975/test",
         "rootRequired": false,
         "ipkUrl": "https://github.com/in1975/test/releases/download/test/webosapp.tools_0.0.1_all.ipk",
         "ipkHash": {
