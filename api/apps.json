@@ -26,6 +26,7 @@
         },
         "ipkSize": 1436054
       },
+      "pool": "main",
       "shortDescription": "webOS Homebrew installer",
       "fullDescriptionUrl": "apps/org.webosbrew.hbchannel-full_description.html"
     },
@@ -48,6 +49,7 @@
         },
         "ipkSize": 15524
       },
+      "pool": "main",
       "shortDescription": null,
       "fullDescriptionUrl": "apps/webosapp.tools-full_description.html"
     },
@@ -70,6 +72,7 @@
         },
         "ipkSize": 383900
       },
+      "pool": "main",
       "shortDescription": null,
       "fullDescriptionUrl": "apps/youtube.leanback.v4-full_description.html"
     }
