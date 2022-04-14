@@ -1,0 +1,34 @@
+{
+  "paging": {
+    "page": 1,
+    "count": 1,
+    "maxPage": 1,
+    "itemsTotal": 1
+  },
+  "packages": [
+    {
+      "id": "com.rawrlab.pmouya",
+      "title": "eXplosive Dinosaurs (Demo)",
+      "iconUri": "https://github.com/panreyes/xd-webos-ipk/releases/download/v1.0.0/icon160.png",
+      "manifestUrl": "https://github.com/panreyes/xd-webos-ipk/releases/download/v1.0.0/com.rawrlab.pmouya.manifest.json",
+      "manifest": {
+        "id": "com.rawrlab.pmouya",
+        "version": "1.0.0",
+        "type": "native",
+        "title": "eXplosive Dinosaurs (Demo)",
+        "appDescription": "Multiplayer party game (requires gamepads!)",
+        "iconUri": "https://www.explosivedinosaurs.com/assets/webos/icon160.png",
+        "sourceUrl": "https://www.explosivedinosaurs.com",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/panreyes/xd-webos-ipk/releases/download/v1.0.0/com.rawrlab.pmouya_1.0.0_arm.ipk",
+        "ipkHash": {
+          "sha256": "69d03d99fe0ff0e134804788b0ef685381c3a4938a7cb79cd3ec48f78e0dfb6d"
+        },
+        "ipkSize": 87215486
+      },
+      "pool": "non-free",
+      "shortDescription": "Multiplayer party game (requires gamepads!)",
+      "fullDescriptionUrl": "apps/com.rawrlab.pmouya-full_description.html"
+    }
+  ]
+}
