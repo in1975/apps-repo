@@ -31,10 +31,10 @@
       "fullDescriptionUrl": "apps/org.webosbrew.hbchannel-full_description.html"
     },
     {
-      "id": "kinopoisk_lampa",
+      "id": "kinopoisk_piccap",
       "title": "kinopoisk_lampa",
       "iconUri": "https://github.com/in1975/test/raw/master/Kinopoisk_logo_orange.png",
-      "manifestUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_lampa.manifest.json",
+      "manifestUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_piccap.manifest.json",
       "manifest": {
         "id": "com.685631.3411",
         "version": "0.0.7",
@@ -43,21 +43,21 @@
         "iconUri": "https://github.com/in1975/test/raw/master/Kinopoisk_logo_orange.png",
         "sourceUrl": "https://github.com/in1975/test",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_lampa_0.0.7_all.ipk",
+        "ipkUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_piccap_onoff_fast_0.0.7.ipk",
         "ipkHash": {
-          "sha256": "7fc00eef408ffa0dcc60c341a1da24db8c846c075e171ceb0f2b5e175559f34a"
+          "sha256": "cf52a49b057a7edb7073601d046b46171f80d78df6f3f8bf7f2ee2b87de9f08d"
         },
-        "ipkSize": 32452
+        "ipkSize": 32536
       },
       "pool": "main",
       "shortDescription": null,
-      "fullDescriptionUrl": "apps/kinopoisk_lampa-full_description.html"
+      "fullDescriptionUrl": "apps/kinopoisk_piccap-full_description.html"
     },
     {
-      "id": "okko_lampa",
+      "id": "okko_piccap",
       "title": "okko_lampa",
       "iconUri": "https://github.com/in1975/test/raw/master/okko.png",
-      "manifestUrl": "https://github.com/in1975/test/releases/download/test/okko_lampa.manifest.json",
+      "manifestUrl": "https://github.com/in1975/test/releases/download/test/okko_piccap.manifest.json",
       "manifest": {
         "id": "yota.play",
         "version": "0.0.7",
@@ -66,15 +66,15 @@
         "iconUri": "https://github.com/in1975/test/raw/master/okko.png",
         "sourceUrl": "https://github.com/in1975/test",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/in1975/test/releases/download/test/okko_lampa_0.0.7_all.ipk",
+        "ipkUrl": "https://github.com/in1975/test/releases/download/test/okko_piccap_onoff_fast_0.0.7.ipk",
         "ipkHash": {
-          "sha256": "771cd56b5c72174fae34ce31dd8c744cacf995705f05816834773cda01f23f58"
+          "sha256": "729b1d8475286e56a9131d42aa5af98bc2b8f5f64b4b79ac632625ae71585518"
         },
-        "ipkSize": 32426
+        "ipkSize": 32508
       },
       "pool": "main",
       "shortDescription": null,
-      "fullDescriptionUrl": "apps/okko_lampa-full_description.html"
+      "fullDescriptionUrl": "apps/okko_piccap-full_description.html"
     },
     {
       "id": "webosapp.tools",
