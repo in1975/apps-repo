@@ -1,9 +1,9 @@
 {
   "paging": {
     "page": 1,
-    "count": 3,
+    "count": 5,
     "maxPage": 1,
-    "itemsTotal": 3
+    "itemsTotal": 5
   },
   "packages": [
     {
@@ -29,6 +29,52 @@
       "pool": "main",
       "shortDescription": "webOS Homebrew installer",
       "fullDescriptionUrl": "apps/org.webosbrew.hbchannel-full_description.html"
+    },
+    {
+      "id": "kinopoisk_lampa",
+      "title": "kinopoisk_lampa",
+      "iconUri": "https://github.com/in1975/test/raw/master/Kinopoisk_logo_orange.png",
+      "manifestUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_lampa.manifest.json",
+      "manifest": {
+        "id": "com.685631.3411",
+        "version": "0.0.7",
+        "type": "web",
+        "title": "Launcher",
+        "iconUri": "https://github.com/in1975/test/raw/master/Kinopoisk_logo_orange.png",
+        "sourceUrl": "https://github.com/in1975/test",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_lampa_0.0.7_all.ipk",
+        "ipkHash": {
+          "sha256": "7fc00eef408ffa0dcc60c341a1da24db8c846c075e171ceb0f2b5e175559f34a"
+        },
+        "ipkSize": 32452
+      },
+      "pool": "main",
+      "shortDescription": null,
+      "fullDescriptionUrl": "apps/kinopoisk_lampa-full_description.html"
+    },
+    {
+      "id": "okko_lampa",
+      "title": "okko_lampa",
+      "iconUri": "https://github.com/in1975/test/raw/master/okko.png",
+      "manifestUrl": "https://github.com/in1975/test/releases/download/test/okko_lampa.manifest.json",
+      "manifest": {
+        "id": "yota.play",
+        "version": "0.0.7",
+        "type": "web",
+        "title": "Launcher",
+        "iconUri": "https://github.com/in1975/test/raw/master/okko.png",
+        "sourceUrl": "https://github.com/in1975/test",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/in1975/test/releases/download/test/okko_lampa_0.0.7_all.ipk",
+        "ipkHash": {
+          "sha256": "771cd56b5c72174fae34ce31dd8c744cacf995705f05816834773cda01f23f58"
+        },
+        "ipkSize": 32426
+      },
+      "pool": "main",
+      "shortDescription": null,
+      "fullDescriptionUrl": "apps/okko_lampa-full_description.html"
     },
     {
       "id": "webosapp.tools",
