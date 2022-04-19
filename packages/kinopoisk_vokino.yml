@@ -1,9 +1,9 @@
 title: kinopoisk_lampa
 iconUri: https://github.com/in1975/test/raw/master/Kinopoisk_logo_orange.png
-manifestUrl: https://github.com/in1975/test/releases/download/test/kinopoisk_piccap.manifest.json
+manifestUrl: https://github.com/in1975/test/releases/download/test/kinopoisk_vokino.manifest.json
 category: entertainment
 description: |
   Test 
 
   ## Features
-  change keys kinopoisk to piccap
+  change keys kinopoisk to vokino
