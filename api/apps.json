@@ -1,9 +1,9 @@
 {
   "paging": {
     "page": 1,
-    "count": 4,
+    "count": 5,
     "maxPage": 1,
-    "itemsTotal": 4
+    "itemsTotal": 5
   },
   "packages": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "id": "kinopoisk_vokino",
-      "title": "kinopoisk_lampa",
+      "title": "kinopoisk_vokino",
       "iconUri": "https://github.com/in1975/test/raw/master/Kinopoisk_logo_orange.png",
       "manifestUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_vokino.manifest.json",
       "manifest": {
@@ -45,13 +45,36 @@
         "rootRequired": false,
         "ipkUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_vokino_1.0.7_all.ipk",
         "ipkHash": {
-          "sha256": "be64216ab850d5a675618f6e4ec14638872a2a400ebaef38ee9129bf458f24a4"
+          "sha256": "c5f7f0122fa311c83c86725c8556c6e8673d5b168a8cd69d95674e72dc05341f"
         },
-        "ipkSize": 13864
+        "ipkSize": 13874
       },
       "pool": "main",
       "shortDescription": null,
       "fullDescriptionUrl": "apps/kinopoisk_vokino-full_description.html"
+    },
+    {
+      "id": "okko_deeplex",
+      "title": "okko_deeplex",
+      "iconUri": "https://github.com/in1975/test/raw/master/okko.png",
+      "manifestUrl": "https://github.com/in1975/test/releases/download/test/okko_deeplex.manifest.json",
+      "manifest": {
+        "id": "yota.play",
+        "version": "0.0.7",
+        "type": "web",
+        "title": "Launcher",
+        "iconUri": "https://github.com/in1975/test/raw/master/okko.png",
+        "sourceUrl": "https://github.com/in1975/test",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/in1975/test/releases/download/test/okko_deeplex_0.0.7_all.ipk",
+        "ipkHash": {
+          "sha256": "8f5a8ae01504f123bf50f7791cc0c4c2e2ad15b7d52a07a0b6d5ad60176d96e4"
+        },
+        "ipkSize": 19060
+      },
+      "pool": "main",
+      "shortDescription": null,
+      "fullDescriptionUrl": "apps/okko_deeplex-full_description.html"
     },
     {
       "id": "webosapp.tools",
