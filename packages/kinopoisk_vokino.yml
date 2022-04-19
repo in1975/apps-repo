@@ -1,7 +1,7 @@
-title: kinopoisk_lampa
+title: kinopoisk_vokino
 iconUri: https://github.com/in1975/test/raw/master/Kinopoisk_logo_orange.png
 manifestUrl: https://github.com/in1975/test/releases/download/test/kinopoisk_vokino.manifest.json
-category: entertainment
+category: web
 description: |
   Test 
 
