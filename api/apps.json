@@ -1,9 +1,9 @@
 {
   "paging": {
     "page": 1,
-    "count": 5,
+    "count": 4,
     "maxPage": 1,
-    "itemsTotal": 5
+    "itemsTotal": 4
   },
   "packages": [
     {
@@ -31,50 +31,27 @@
       "fullDescriptionUrl": "apps/org.webosbrew.hbchannel-full_description.html"
     },
     {
-      "id": "kinopoisk_piccap",
+      "id": "kinopoisk_vokino",
       "title": "kinopoisk_lampa",
       "iconUri": "https://github.com/in1975/test/raw/master/Kinopoisk_logo_orange.png",
-      "manifestUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_piccap.manifest.json",
+      "manifestUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_vokino.manifest.json",
       "manifest": {
         "id": "com.685631.3411",
-        "version": "0.0.7",
+        "version": "1.0.7",
         "type": "web",
         "title": "Launcher",
         "iconUri": "https://github.com/in1975/test/raw/master/Kinopoisk_logo_orange.png",
         "sourceUrl": "https://github.com/in1975/test",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_piccap_onoff_fast_0.0.7.ipk",
+        "ipkUrl": "https://github.com/in1975/test/releases/download/test/kinopoisk_vokino_1.0.7_all.ipk",
         "ipkHash": {
-          "sha256": "cf52a49b057a7edb7073601d046b46171f80d78df6f3f8bf7f2ee2b87de9f08d"
+          "sha256": "be64216ab850d5a675618f6e4ec14638872a2a400ebaef38ee9129bf458f24a4"
         },
-        "ipkSize": 32536
+        "ipkSize": 13864
       },
       "pool": "main",
       "shortDescription": null,
-      "fullDescriptionUrl": "apps/kinopoisk_piccap-full_description.html"
-    },
-    {
-      "id": "okko_piccap",
-      "title": "okko_lampa",
-      "iconUri": "https://github.com/in1975/test/raw/master/okko.png",
-      "manifestUrl": "https://github.com/in1975/test/releases/download/test/okko_piccap.manifest.json",
-      "manifest": {
-        "id": "yota.play",
-        "version": "0.0.7",
-        "type": "web",
-        "title": "Launcher",
-        "iconUri": "https://github.com/in1975/test/raw/master/okko.png",
-        "sourceUrl": "https://github.com/in1975/test",
-        "rootRequired": false,
-        "ipkUrl": "https://github.com/in1975/test/releases/download/test/okko_piccap_onoff_fast_0.0.7.ipk",
-        "ipkHash": {
-          "sha256": "729b1d8475286e56a9131d42aa5af98bc2b8f5f64b4b79ac632625ae71585518"
-        },
-        "ipkSize": 32508
-      },
-      "pool": "main",
-      "shortDescription": null,
-      "fullDescriptionUrl": "apps/okko_piccap-full_description.html"
+      "fullDescriptionUrl": "apps/kinopoisk_vokino-full_description.html"
     },
     {
       "id": "webosapp.tools",
