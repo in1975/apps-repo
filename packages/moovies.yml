@@ -1,0 +1,7 @@
+title: moovies
+iconUri: https://github.com/in1975/test/raw/master/moovies.png
+manifestUrl: https://github.com/in1975/test/releases/download/test/moovies.manifest.json
+category: web
+description: |
+  moovies 0.0.1
+
