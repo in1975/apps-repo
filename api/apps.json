@@ -54,27 +54,27 @@
       "fullDescriptionUrl": "apps/kinopoisk_vokino-full_description.html"
     },
     {
-      "id": "lampa",
-      "title": "Lampa",
-      "iconUri": "https://github.com/yumata/lampa/raw/main/icons/favicon-32x32.png",
-      "manifestUrl": "https://github.com/in1975/test/releases/download/test/lampa.manifest.json",
+      "id": "moovies",
+      "title": "moovies",
+      "iconUri": "https://github.com/in1975/test/raw/master/moovies.png",
+      "manifestUrl": "https://github.com/in1975/test/releases/download/test/moovies.manifest.json",
       "manifest": {
-        "id": "com.lampa.tv",
-        "version": "1.3.7",
+        "id": "ru.imovies.web",
+        "version": "0.0.1",
         "type": "web",
-        "title": "Lampa",
-        "iconUri": "https://github.com/yumata/lampa/raw/main/icons/favicon-32x32.png",
+        "title": "IMovies",
+        "iconUri": "https://github.com/in1975/test/raw/master/moovies.png",
         "sourceUrl": "https://github.com/in1975/test",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/in1975/test/releases/download/test/lampa_v1.3.7.ipk",
+        "ipkUrl": "https://github.com/in1975/test/releases/download/test/ru.imovies.web_0.0.1_all.ipk",
         "ipkHash": {
-          "sha256": "871c0708e05b6978cb511fe7bc3d4249a11665f7aef583993837e1de99fcd3c6"
+          "sha256": "fc81b51d58312ca13b31d9f430067fedee12e9d19a2496d81bad9ec951198695"
         },
-        "ipkSize": 6546240
+        "ipkSize": 34358
       },
       "pool": "main",
       "shortDescription": null,
-      "fullDescriptionUrl": "apps/lampa-full_description.html"
+      "fullDescriptionUrl": "apps/moovies-full_description.html"
     },
     {
       "id": "okko_deeplex",
