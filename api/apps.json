@@ -68,9 +68,9 @@
         "rootRequired": false,
         "ipkUrl": "https://github.com/in1975/test/releases/download/test/ru.imovies.web_0.0.1_all.ipk",
         "ipkHash": {
-          "sha256": "fc81b51d58312ca13b31d9f430067fedee12e9d19a2496d81bad9ec951198695"
+          "sha256": "81fab26e9e14a598d947d55fe1820f9ef47693f6630fd87071ca8d11a5720558"
         },
-        "ipkSize": 34358
+        "ipkSize": 32500
       },
       "pool": "main",
       "shortDescription": null,
