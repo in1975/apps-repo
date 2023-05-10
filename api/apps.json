@@ -1,34 +1,57 @@
 {
   "paging": {
     "page": 1,
-    "count": 5,
+    "count": 6,
     "maxPage": 1,
-    "itemsTotal": 5
+    "itemsTotal": 6
   },
   "packages": [
     {
       "id": "org.webosbrew.hbchannel",
       "title": "Homebrew Channel",
       "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
-      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.5.1/org.webosbrew.hbchannel.manifest.json",
+      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.6.3/org.webosbrew.hbchannel.manifest.json",
       "manifest": {
         "id": "org.webosbrew.hbchannel",
-        "version": "0.5.1",
+        "version": "0.6.3",
         "type": "web",
         "title": "Homebrew Channel",
         "appDescription": "webOS Homebrew installer",
         "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
         "sourceUrl": "https://github.com/webosbrew/webos-homebrew-channel",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.5.1/org.webosbrew.hbchannel_0.5.1_all.ipk",
+        "ipkUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.6.3/org.webosbrew.hbchannel_0.6.3_all.ipk",
         "ipkHash": {
-          "sha256": "07f94da6199262852c914b1cf6be9535e759ce68c173b2d0e731ef2528e5a111"
+          "sha256": "539d96df4a55b5d0bbb0aae1d0eb4246403546693a77a919a3fe2abc2123d3f8"
         },
-        "ipkSize": 1436608
+        "ipkSize": 1484626
       },
       "pool": "main",
       "shortDescription": "webOS Homebrew installer",
       "fullDescriptionUrl": "apps/org.webosbrew.hbchannel-full_description.html"
+    },
+    {
+      "id": "icva",
+      "title": "icva",
+      "iconUri": "https://github.com/in1975/test/raw/master/lg-logo-large.png",
+      "manifestUrl": "https://github.com/in1975/test/releases/download/test/icva.manifest.json",
+      "manifest": {
+        "id": "icva",
+        "version": "1.1.2",
+        "type": "web",
+        "title": "icva",
+        "iconUri": "https://github.com/in1975/test/raw/master/lg-logo-large.png",
+        "sourceUrl": "https://github.com/in1975/test",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/in1975/test/releases/download/test/icva_v1.1.2.ipk",
+        "ipkHash": {
+          "sha256": "125444f273806521824dfa7a012b304e9f9f43157686beb9450055de85085cf6"
+        },
+        "ipkSize": 6049066
+      },
+      "pool": "main",
+      "shortDescription": null,
+      "fullDescriptionUrl": "apps/icva-full_description.html"
     },
     {
       "id": "kinopoisk_vokino",
